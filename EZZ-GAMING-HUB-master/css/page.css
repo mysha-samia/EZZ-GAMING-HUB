@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+.navbar .navbar-brand{
+    color:black;
+    font-weight: 700;
+    font-size: 26px;
+}
+.navbar .navbar-brand span{
+    color:red;
+}
+
+.navbar .navbar-nav .nav-link{
+    text-transform: uppercase;
+    color:black;
+    font-weight: 700;
+    font-size: 18px;
+    padding-left: 10px;
+    margin-left: 15px;
+    transition: 0.4s ease;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active
+{
+    color: white;
+    background-color: black;
+}
+
+.hero .slider .slide1{
+    background-image: url('images/hgl.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+.hero .slider .slide2{
+    background-image: url('images/bf2042.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+.hero .slider .pre-order{
+    padding:10px;
+    background-color: #333;
+    color: white;
+    transition: 0.4s ease;
+}
+.hero .slider .pre-order:hover{
+    background-color: red;
+}
+.hero .container h2{
+    font-size: 50px;
+    font-weight: 500;
+    color:#f1f1f1;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.hero .container p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#fff;
+    padding-bottom: 30px;
+}
+.featured-products .buy{
+    padding:10px;
+    background-color: #333;
+    color: white;
+    transition: 0.4s ease;
+}
+.featured-products .buy:hover{
+    
+    background-color: red;
+    
+}
+
+.icons .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icons .feature-icons{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* align-content: center; */
+    justify-content: center;
+    /* margin-right: 90px; */
+    padding:2rem 0;
+}
+
+.icons .feature-icons i{
+    font-size: 2.5rem;
+    color: darkred;
+    padding: 15px 0;
+}
+
+.icons .feature-icons h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    color:black;
+    padding-bottom: 5px;
+}
+
+.icons .feature-icons p{
+    font-size: 18px;
+    color:black;
+}
+
+#featured-games .feature-slider .content{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 10px;
+}
+
+#featured-games .feature-slider .content .image{
+    width: 100%;
+}
+#featured-games .feature-slider .content .image img{
+    width: 100%;
+}
+#featured-games .feature-slider .content .data{
+    text-align: center;
+}
+#featured-games .feature-slider .content .data h3{
+    text-transform: uppercase;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+}
+#featured-games .feature-slider .content .data h4{
+    /* text-transform: uppercase; */
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+#featured-games .feature-slider .content .data .price{
+    /* padding: 10px; */
+    /* border: 1px solid black; */
+    /* border-radius: 5px; */
+    background-color: white;
+    color: red;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#arrivals .arrival-contents{
+    display: flex;
+    flex-direction:row;
+}
+#arrivals .arrival-contents .box{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+#arrivals .arrival-contents .box .image{
+    width: 100%;
+    /* height: 30%; */
+}
+#arrivals .arrival-contents .box .image img{
+    width: 100%;
+}
+#arrivals .arrival-contents .box .content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0 10px; */
+}
+#arrivals .arrival-contents .box .content h3{
+    font-weight: 600;
+    font-size: 26px;
+    color: black;
+}
+#arrivals .arrival-contents .box .content h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+#arrivals .arrival-contents .box .content .price{
+    color: red;
+}
+#arrivals .arrival-contents .box .content .stars i{
+    font-size: 20px;
+    /* font-weight: 500; */
+    color: goldenrod;
+}
+
+.footer{
+    margin-top: 80px;
+}
+
+.footer .icons{
+    padding:1rem 0;
+    text-align: center;
+}
+
+.footer .icons a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: white;
+    background: black;
+    margin:0 .3rem;
+    border-radius: 50%; 
+}
+
+.footer .icons a:hover{
+    background:red;
+}
+
+.shopBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.products .heading{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 30px 0;
+}
+.shopbox-contents {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    max-width: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.shopbox-contents img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.shopbox-contents h4 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.shopbox-contents h3 {
+    margin: 0;
+    font-size: 16px;
+    font-weight: normal;
+    color: #999;
+}
+
+.shopbox-contents input.btn {
+    margin-top: 10px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.shopbox-contents input.btn:hover {
+    background-color: crimson;
+}
+
+
+.shopping-cart table{
+    text-align: center;
+    width: 100%;
+ }
+ 
+ .shopping-cart table thead th{
+    padding:1.5rem;
+    font-size: 2rem;
+    color:white;
+    background-color: black;
+ }
+ 
+ .shopping-cart table tr td{
+    border-bottom: 1px solid #333;
+    padding:1.5rem;
+    font-size: 2rem;
+    color:black;
+ }
+ 
+ .shopping-cart table input[type="number"]{
+    border: 1px solid #333;
+    padding:1rem 2rem;
+    font-size: 2rem;
+    color:black;
+    width: 10rem;
+ }
+ 
+ .shopping-cart table input[type="submit"]{
+    padding:.5rem 1.5rem;
+    cursor: pointer;
+    font-size: 2rem;
+    background-color: crimson;
+    color:white;
+ }
+ 
+ .shopping-cart table input[type="submit"]:hover{
+    background-color: black;
+ }
+ 
+ .shopping-cart table .table-bottom{
+    background-color: #f1f1f1;
+ }
+ 
+ .shopping-cart .checkout-btn{
+    text-align: center;
+    margin-top: 1rem;
+ }
+ 
+ .shopping-cart .checkout-btn a{
+    display: inline-block;
+    width: auto;
+    color: white;
+ }
+ 
+ .shopping-cart .checkout-btn a.disabled{
+    pointer-events: none;
+    opacity: .5;
+    user-select: none;
+    background-color: black;
+ }
+
+.display-order {
+    max-width: 100%;
+    background-color: white;
+    border-radius: .5rem;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.display-order h4 {
+    display: inline-block;
+    border-radius: .5rem;
+    background-color: #f1f1f1;
+    padding: 5px 5px;
+    font-size: 2rem;
+    margin: .5rem;
+}
+.display-order span {
+    color: crimson;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.display-order span.grand-total {
+    width: 100%;
+    background-color: crimson;
+    color: white;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.btn, .option-btn, .delete-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: crimson;
+    color: white;
+    font-size: 1.7rem;
+    padding: 1.2rem 3rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.btn:hover, .option-btn:hover, .delete-btn:hover{
+    background-color: black;
+    color: white;
+}
+
+#news{
+    margin: 30px 0;
+}
+#news .news-slider{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#news .news-slider .content{
+    width: 45%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px 0;
+}
+#news .news-slider .content .image{
+    width: 100%;
+}
+#news .news-slider .content .image img{
+    width: 100%;
+}
+#news .news-slider .content .data h3{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    padding:15px 0;
+}
+#news .news-slider .content .data h4{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+#news .news-slider .content .data {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#news .news-slider .content .data ul{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#news .news-slider .content .data ul li a{
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 500;
+    background-color: #999;
+    color: #333;
+}
+
+#news .news-slider .content .data p{
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+}
+#news .news-slider .content .data .read{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px;
+    background-color: black;
+    color: #fff;
+    transition: 0.4s ease;
+}
+#news .news-slider .content .data .read:hover{
+    background-color: red;
+    color: white;
+}
+
+#footerbanner{
+    background: black;
+    /* background-image: url(../images/bg1.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    padding: 30px 0;
+}
+
+#footerbanner h2{
+    text-transform: uppercase;
+    color: #f1f1f1;
+    font-size: 50px;
+}
+
+#footerbanner a{
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: darkblue;
+    color: #f1f1f1;
+    font-size: 30px;
+    padding: 10px;
+    transition: 0.4s ease;
+}
+
+#footerbanner a:hover{
+    background-color: white;
+    color: #333;
+}
+
+.mtitle{
+    color: #f1f1f1;
+    background-color: #333;
+    padding: 10px;
+}
+.title a{
+    display: block;
+    color: #f1f1f1;
+    background-color: #333;
+    padding: 10px;
+}

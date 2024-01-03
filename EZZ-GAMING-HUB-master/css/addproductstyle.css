@@ -1,0 +1,26 @@
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+
+fieldset{
+font-size: 18px;
+margin-bottom: 20px;
+}
+
+input{
+    font-size: 14px;
+    height: 25px;
+}
+
+select{
+    height: 25px;
+}
+
+#submit{
+    font-size: medium;
+    font-weight: bold;
+    background-color: #333;
+    border: #333;
+    color:white;
+}

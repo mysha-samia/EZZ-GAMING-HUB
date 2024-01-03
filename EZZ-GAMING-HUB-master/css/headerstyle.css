@@ -1,0 +1,36 @@
+nav {
+
+    text-align: center;
+    background-color: black;
+    height: 40px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+  }
+  nav ul form input[type=submit]{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10;
+  text-decoration: none;
+  margin: 0 10px;
+  cursor: pointer;
+  font-size: 20px;
+}

@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+body{
+   background-image: url(img/back3.jpg);
+   background-size: cover;
+   text-align: center;
+}
+.nav-heading{
+    color: rgb(233, 233, 233);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+.nav-heading a{
+    text-decoration: none;
+}
+.nav-heading h1{
+    color: rgb(48, 41, 41);
+
+}
+
+
+.contact-form{
+    margin-top: 100px;
+    color: black;
+    text-transform: uppercase;
+    transition: all 4s ease-in-out;
+}
+
+.contact-form h1{
+    font-size: 32px;
+}
+
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control{
+    width: 400px;
+    background: transparent;
+    
+    outline: none;
+    border: 3px solid black;
+    color:#000000;
+    font-size: 18px;
+    margin-bottom: 18px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+
+input{
+    height: 45px;
+}
+
+form .submit{
+    background: #6c0005;
+    
+    color: #fff;
+    border: 3px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    
+}
+
+form .submit:hover{
+    background: #a31e12;
+    cursor: pointer;
+}
+
+
+
